@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app</title>
+    <link rel="shortcut icon" href="assest/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="warper">
+      <div class="header">
+        <img class="header__icon" src="assest/weather icon.png" />
+        <h1 class="header__title">weather app</h1>
+      </div>
+
+      <form id="weather-form" action="/data" method="post">
+        <input type="text" id="city" placeholder="Please Enter You City Name" />
+        <span>Or</span>
+        <input
+          type="text"
+          id="zip"
+          placeholder="Enter You Zip code & country spreated by ,"
+        />
+        <input type="submit" value="Get weather From Server" />
+        <button class="btn-submit">Get weather From Client</button>
+      </form>
+
+      <div class="result-div">
+        <ul id="show-weather-data"></ul>
+      </div>
+      <footer>
+        created By Islam Thabet
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
