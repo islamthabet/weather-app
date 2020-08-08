@@ -38,7 +38,6 @@ async function getWeather(WeUrl) {
 }
 weatherList.addEventListener("click", (e) => {
   if (e.target.tagName == "BUTTON") {
-    console.log(e.target.parentElement);
     e.target.parentElement.style = "display: none";
   } else {
     console.log(e);
