@@ -19,8 +19,6 @@ body {
 .warper {
   position: relative;
   padding: 2rem;
-
-  height: 90vh;
 }
 .header {
   width: 80%;
@@ -140,4 +138,15 @@ input[type="submit"]:focus,
   transform: translateY(-5px);
   cursor: pointer;
   border: 1px solid transparent;
+}
+
+footer {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  background-color: #f2edeb;
+  position: relative;
+  color: #000;
+  font-size: 1.6rem;
+  padding: 1.4rem;
 }
